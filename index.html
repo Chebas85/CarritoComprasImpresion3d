@@ -13,13 +13,35 @@
 </head>
 <body>
     <div class="container">
-        <header style="background-color: black; color: white;">
-          <h1 class="text-center">Filamentos 3D - Productos</h1>
+        <header>
+            <div style="background-color: black; color: white;" class="row">
+                <div class="col-md-10">
+                    <h1 class="text-center">Filamentos 3D - Productos</h1>
+                </div>
+                <section id="InfoCarrito" class="col-md-2" style="gap: 1rem;">
+                    <h5>Items: 0 - $ 0</h5>
+                </section>
+            </div>
         </header>
         <main>
-            <section id="listaProductos" class="row">
-              <!-- Se van a listar los productos -->
-            </section>
+            <div class="row" style="margin-top: 15px;">
+                <div class="col-md-3">
+                    <div style="text-align: center; height: 50px;">
+                        <h5>Filtros</h5>
+                    </div>
+                    <section id="listaFiltros" class="row" style="gap: 1rem; text-align: center;">
+                        <!-- Se van a listar los filtros -->
+                    </section>
+                    <div style="text-align: center; margin-top: 15px;">
+                        <button id="btnClearFilterId" name="btnClearFilter" class="btn btn-primary">Limpar Filtros</button>
+                    </div>
+                </div>
+                <div class="col-md-9">
+                    <section id="listaProductos" class="row" style="gap: 1rem;">
+                        <!-- Se van a listar los productos -->
+                      </section>
+                </div>
+            </div>
         </main>
     </div>
     <!-- Scripts -->
