@@ -1,37 +1,49 @@
 const productos = [{
     id: 1,
-    foto: "https://github.com/Chebas85/Print3dSolutions/blob/main/img/PLA-Red.jpeg",
-    nombre: "Filamento PLA Color Rojo",
+    imagen: "https://raw.githubusercontent.com/Chebas85/Print3dSolutions/main/img/PLA-Red.jpeg",
+    descripcion: "Filamento PLA Color Rojo",
+    color: 'Rojo',
+    material: 'PLA',
     precio: 2500
 },
 {
     id: 2,
-    foto: "https://github.com/Chebas85/Print3dSolutions/blob/main/img/PLA-white.jpeg",
-    nombre: "Filamento PLA Color Blanco",
+    imagen: "https://raw.githubusercontent.com/Chebas85/Print3dSolutions/main/img/PLA-white.jpeg",
+    descripcion: "Filamento PLA Color Blanco",
+    color: 'Blanco',
+    material: 'PLA',
     precio: 2500
 },
 {
     id: 3,
-    foto: "https://github.com/Chebas85/Print3dSolutions/blob/main/img/PLA-yellow.jpeg",
-    nombre: "Filamento PLA Color Amarillo",
+    imagen: "https://raw.githubusercontent.com/Chebas85/Print3dSolutions/main/img/PLA-yellow.jpeg",
+    descripcion: "Filamento PLA Color Amarillo",
+    color: 'Amarillo',
+    material: 'PLA',
     precio: 2500
 },
 {
     id: 4,
-    foto: "https://github.com/Chebas85/Print3dSolutions/blob/main/img/ABS-green.jpeg",
-    nombre: "Filamento ABS Color Verde",
+    imagen: "https://raw.githubusercontent.com/Chebas85/Print3dSolutions/main/img/ABS-green.jpeg",
+    descripcion: "Filamento ABS Color Verde",
+    color: 'Verde',
+    material: 'ABS',
     precio: 2900
 },
 {
     id: 5,
-    foto: "https://github.com/Chebas85/Print3dSolutions/blob/main/img/ABS-pink.jpeg",
-    nombre: "Filamento ABS Color Rosa",
+    imagen: "https://raw.githubusercontent.com/Chebas85/Print3dSolutions/main/img/ABS-pink.jpeg",
+    descripcion: "Filamento ABS Color Rosa",
+    color: 'Rosa',
+    material: 'ABS',
     precio: 2900
 },
 {
     id: 6,
-    foto: "https://github.com/Chebas85/Print3dSolutions/blob/main/img/ABS-purple.jpeg",
-    nombre: "Filamento ABS Color Naranja",
+    imagen: "https://raw.githubusercontent.com/Chebas85/Print3dSolutions/main/img/ABS-purple.jpeg",
+    descripcion: "Filamento ABS Color Naranja",
+    color: 'Naranja',
+    material: 'ABS',
     precio: 2900
 }
 ];
